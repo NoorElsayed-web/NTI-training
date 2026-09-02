@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(148, 31, 76, 0.877);
+}
+body{
+    font-size: 18px;
+    background-color: rgb(231, 176, 206);
+    color: rgb(5, 5, 5);
+}
+main{
+        font-family: cursive;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rose{
+    width:48%;
+    display: flex;
+    margin: 10px;
+}
+.rose img{
+    width: 255px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        label {
+            display: inline-block;
+            width: 140px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: 1px solid #0a0a0a;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img">
+        <img src="../../images/imgi_4_pngtree-smiling-female-doctor-cartoon-character-png-image_2090550 (1).png"
+            style="height: 900px;" alt="doctor">
+    </div>
+    <div class="form">
+        <form>
+            <label for="appDate">Appointment Date :</label>
+            <input type="date" id="appDate" name="appDate" required><br><br>
+            <label for="appTime">Appointment Time :</label>
+            <input type="time" id="appTime" name="appTime" required><br><br>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" placeholder="First" required>
+            <input type="text" id="name" name="name" placeholder="Last" required><br><br>
+            <label for="gender">Gender :</label>
+            <input type="radio" id="gender" name="gender" value="male" required>
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="gender" value="female" required>
+            <label for="gender">Female</label><br><br>
+            <label for="phone">Phone Number :</label>
+            <input type="tel" id="phone" name="phone" placeholder="01000000000" required>
+            <br><br><label for="address">Adress :</label>
+            <input type="text" id="address" name="address" placeholder="city" required>
+            <input type="text" id="address" name="address" placeholder="state" required><br><br>
+            <label for="query">Query : </label>
+            <textarea id="query" name="query" required></textarea><br> <br>
+            <label for="type">Appointment Type : </label>
+            <input type="checkbox" id="cervix" name="type" value="cervix" required><label for="cervix">Cervix
+                Check-up</label><br><br>
+            <label></label><input type="checkbox" id="heart" name="type" value="heart" required><label for="heart">Heart
+                Check-up</label><br><br>
+            <label></label><input type="checkbox" id="eye" name="type" value="eye" required><label for="eye">Eye
+                Check-up</label><br><br>
+            <label></label><input type="checkbox" id="ear" name="type" value="ear" required><label for="ear">Ear
+                Check-up</label><br><br>
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </div>
+</body>
+
+</html>
